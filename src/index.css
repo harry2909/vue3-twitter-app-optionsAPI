@@ -9,6 +9,11 @@
 
 .user-profile {
   display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   padding: 50px 5%;
 }
 
@@ -20,6 +25,7 @@
   background-color: white;
   border-radius: 10px;
   border: 1px solid #DFE3E8;
+  margin-bottom: auto;
 }
 
 .user-profile__user-panel {
@@ -71,4 +77,10 @@ h1 {
 
 .twoot-item__user {
   font-weight: bold;
+}
+
+.user-profile__create-twoot {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
